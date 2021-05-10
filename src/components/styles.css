@@ -1,0 +1,44 @@
+* > * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  padding: 1rem;
+  height: 100vh;
+}
+
+#input-submit > button {
+  margin-left: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline: unset;
+}
+
+#history {
+  display: inline-block;
+  vertical-align: top;
+  width: 29%;
+  border-right: 1px dashed grey;
+  height: 100%;
+}
+
+#main {
+  text-align: center;
+  display: inline-block;
+  width: 70%;
+}
+
+.url {
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.currentUrl {
+  background-color: aliceblue;
+}
